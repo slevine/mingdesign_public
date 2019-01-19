@@ -1,0 +1,159 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+body {
+	background-image: url(../images/desk.jpg);
+	background-repeat: no-repeat;
+	}
+
+a:link, a:visited, a:active {
+	color: #333;
+}
+
+
+.intro
+{
+	text-align: center;
+	color: #fff;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	margin-bottom: 50px;
+}
+
+.row .col {
+	padding: 0;
+	text-align: center;
+	}
+	
+.filler-div {
+	opacity: 0.4;
+    filter: alpha(opacity=40); 
+	height: 300px;
+	}
+	
+.collapsible-header {
+	text-align: left;
+	}
+	
+
+.collapsible-body {
+	margin-left: 2%;
+	margin-top: 2%;
+	text-align: center;
+	}
+	
+.portfolio-list {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02) inset;
+    list-style: outside none none;
+    margin-left: -2px;
+    margin-right: -2px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.portfolio-list li {
+    display: inline-block;
+    max-width: 500px;
+    text-align: left;
+    width: 45%;
+	padding: 1%;
+}
+
+.contact-form {
+	padding: 5%;
+	}
+	
+.phone {
+	color: #333;
+	}
+
+#leftCo {
+	margin-top: 20px;
+	float: left;
+	}
+	
+#leftCo ul{
+	list-style: none;
+	}
+	
+#leftCo li {
+	display: inline-block;
+	}
+	
+a.linkedin {
+	display: block;
+	width: 120px;
+	height: 114px;
+	background: url('../images/but_linkedin.png') no-repeat bottom;
+	text-indent: -99999px;
+	margin: 0;
+	padding: 0;
+}
+
+.linkedin:hover {
+	background-position: 0 0;
+}
+
+a.twitter {
+	display: block;
+	width: 120px;
+	height: 114px;
+	background: url('../images/but_twitter.png') no-repeat bottom;
+	text-indent: -99999px;
+	margin: 0;
+	padding: 0;
+}
+.twitter:hover {
+	background-position: 0 0;
+}
+
+a.facebook {
+	display: block;
+	width: 120px;
+	height: 114px;
+	background: url('../images/but_facebook.png') no-repeat bottom;
+	text-indent: -99999px;
+	margin: 0;
+	padding: 0;
+}
+.facebook:hover {
+	background-position: 0 0;
+}
+
+a.photo {
+	display: block;
+	width: 120px;
+	height: 114px;
+	background: url('../images/but_500px.png') no-repeat bottom;
+	text-indent: -99999px;
+	margin: 0;
+	padding: 0;
+}
+
+.photo:hover {
+	background-position: 0 0;
+}
+
+
+.clear {
+	clear: both;
+	}
+
+
+@media screen and (max-width: 768px) {
+	
+.portfolio-list li {
+    width: 90%;
+}
+
+}
+
