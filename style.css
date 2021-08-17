@@ -327,7 +327,7 @@ p.sum {
 
 	.hello {
 		grid-column: 2 / -2;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	
 	img.responsive {
