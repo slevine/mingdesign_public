@@ -195,9 +195,13 @@ img.responsive {
 	padding: 1em;
 }
 
-.sample1, .sample2, .sample3, .sample4{
+.sample1, .sample2, .sample3, .sample4, .sample5{
 	text-align: center;
 	padding: 2em 0;
+}
+
+.sample5 {
+	background-color: #F5AB8B;
 }
 
 .sample1 {
@@ -205,7 +209,7 @@ img.responsive {
 }
 
 .sample2 {
-		background-color: #B6C9D0;
+		background-color: #d8def8;
 }
 
 .sample3 {
@@ -326,7 +330,7 @@ p.sum {
 @media only screen and (max-width: 1100px) {
 
 	.hello {
-		grid-column: 2 / -2;
+		grid-column: 1 / -1;
 		font-size: 1em;
 	}
 	
