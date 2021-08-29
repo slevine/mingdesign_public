@@ -84,8 +84,6 @@ p {
 img.responsive {
 	max-width: 50%;
   	height: auto;
-	margin: 0;
-	padding: 0;
 }
 
 
@@ -204,6 +202,10 @@ img.responsive {
 .sample5 {
 	background-color: #E6EAF5;
 	padding: 0 2em;
+}
+
+.sample5 img{
+	vertical-align: middle;
 }
 
 .sample1 {
