@@ -46,7 +46,6 @@ body, h2, h3, h4, h5, p{
 	margin: 0;	
 	color: #444444;
 	font-family: 'libre_caslon_textregular';
-	color: #444444;
 	line-height: 2em;
 
 
@@ -84,7 +83,7 @@ p {
 
 img.responsive {
 	max-width: 50%;
-  	height: auto;
+  	height: 100%;
 }
 
 
@@ -201,7 +200,8 @@ img.responsive {
 }
 
 .sample5 {
-	background-color: #F5AB8B;
+	background-color: #E6EAF5;
+	padding: 0 2em;
 }
 
 .sample1 {
@@ -209,7 +209,7 @@ img.responsive {
 }
 
 .sample2 {
-		background-color: #d8def8;
+		background-color: #F5AB8B;
 }
 
 .sample3 {
@@ -235,7 +235,7 @@ img.responsive {
 	line-height: 1.5em;
 }
 
-.projectBG1, .projectBG2, .projectBG3, .projectBG4 {
+.projectBG1, .projectBG2, .projectBG3, .projectBG4, .projectBG5 {
 	grid-column: 3 / -1;
 	grid-row: 2 / 6;
 	background-color: #F5E08B;
@@ -246,7 +246,7 @@ img.responsive {
 }
 
 .projectBG2 {
-	background-color: #B6C9D0;
+	background-color: #F5AB8B;
 }
 
 .projectBG3 {
@@ -255,6 +255,9 @@ img.responsive {
 
 .projectBG4 {
 	background-color: #E6D3BF;
+}
+.projectBG5 {
+	background-color: #E6EAF5;
 }
 
 .projectImage {
@@ -336,7 +339,7 @@ p.sum {
 	
 	img.responsive {
 	max-width: 80%;
-  	height: auto;
+  	height: 100%;
 }
 	
 	h1 {
