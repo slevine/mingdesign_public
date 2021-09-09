@@ -343,7 +343,7 @@ p.sum {
 	
 	img.responsive {
 	max-width: 80%;
-  	height: 100%;
+  	height: auto;
 }
 	
 	h1 {
