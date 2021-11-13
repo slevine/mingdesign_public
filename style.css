@@ -303,7 +303,7 @@ img.box {
 	margin-right: 5%;
 }
 
-.projectSecTitle:after {
+.projectSecTitle:before {
     content: ""; /* This is necessary for the pseudo element to work. */ 
     display: block; /* This will put the pseudo element on its own line. */
     width: 40%; /* Change this to whatever width you want. */
