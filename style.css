@@ -67,7 +67,7 @@ h2 {
 
 h3 {
 	font-family: 'akrobatlight';
-	font-size: 1.1em;
+	font-size: 1.2em;
 	padding: 1em 0 2em 0; 
 }
 
@@ -303,12 +303,12 @@ img.box {
 	margin-right: 5%;
 }
 
-.projectSecTitle:before {
+.projectSecTitle:after {
     content: ""; /* This is necessary for the pseudo element to work. */ 
     display: block; /* This will put the pseudo element on its own line. */
     width: 40%; /* Change this to whatever width you want. */
     padding-top: 10px; /* This creates some space between the element and the border. */
-    border-top: 5px solid #F37029; /* This creates the border. Replace black with whatever color you want. */
+    border-top: 5px solid #F37029; /* This creates the border. */
 }
 
 .summary {
