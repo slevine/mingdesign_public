@@ -195,15 +195,12 @@ img.responsive {
 	padding: 1em;
 }
 
-.sample1, .sample2, .sample3, .sample4, .sample5{
+.sample1, .sample2, .sample3, .sample4, .sample5, .sample6{
 	text-align: center;
 	padding: 2em 0;
 }
 
-.sample5 {
-	background-color: #E6EAF5;
 
-}
 
 .sample5 img{
 	vertical-align: middle;
@@ -223,6 +220,14 @@ img.responsive {
 
 .sample4 {
 	background-color: #E6D3BF;
+}
+.sample5 {
+	background-color: #E6EAF5;
+
+}
+.sample6 {
+	background-color: #dfe4c6;
+
 }
 
 /* end of home */
