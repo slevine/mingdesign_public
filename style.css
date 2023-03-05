@@ -195,7 +195,7 @@ img.responsive {
 	padding: 1em;
 }
 
-.sample1, .sample2, .sample3, .sample4, .sample5, .sample6{
+.sample1, .sample2, .sample3, .sample4, .sample5, .sample6, .sample7, .sample8{
 	text-align: center;
 	padding: 2em 0;
 }
@@ -230,6 +230,14 @@ img.responsive {
 
 }
 
+.sample7 {
+	background-color: #aacaa0;
+}
+
+.sample8 {
+	background-color: #ded2e5;
+}
+
 /* end of home */
 
 /* sample page */
@@ -245,7 +253,7 @@ img.responsive {
 	line-height: 1.5em;
 }
 
-.projectBG1, .projectBG2, .projectBG3, .projectBG4, .projectBG5 {
+.projectBG1, .projectBG2, .projectBG3, .projectBG4, .projectBG5, .projectBG6, .projectBG7, .projectBG8 {
 	grid-column: 3 / -1;
 	grid-row: 2 / 6;
 	background-color: #F5E08B;
@@ -268,6 +276,16 @@ img.responsive {
 }
 .projectBG5 {
 	background-color: #E6EAF5;
+}
+
+.projectBG6 {
+	background-color: #dfe4c6;
+}
+.projectBG7 {
+	background-color: #aacaa0;
+}
+.projectBG8 {
+	background-color: #ded2e5;
 }
 
 .projectImage {
@@ -334,6 +352,13 @@ p.sum {
 	margin-left: 5em;
 	margin-right: 5em;
 	font-style: italic;
+}
+
+.figureTitle {
+	font-size: .8em;
+	font-style: italic;
+	font-weight: 600;
+	color: #666666;
 }
 
 
