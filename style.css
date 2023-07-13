@@ -129,7 +129,7 @@ img.responsive {
 
 .hello {
 	grid-column: 3 / -3;
-	grid-row: 2 / 3;
+	grid-row: 3 / 4;
 	margin: 1em;
 	text-align: center;
 
@@ -137,7 +137,7 @@ img.responsive {
 
 .profile {
 	grid-column: 3 / -3;
-	grid-row: 3 / 4;
+	grid-row: 2 / 3;
 	margin: 1em;
 	text-align: center;
 }
