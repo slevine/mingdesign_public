@@ -194,7 +194,7 @@ img.responsive {
 	padding: 1em;
 }
 
-.sample1, .sample2, .sample3, .sample4, .sample5, .sample6, .sample7, .sample8{
+.sample1, .sample2, .sample3, .sample4, .sample5, .sample6, .sample7, .sample8, .sample9{
 	text-align: center;
 	padding: 2em 0;
 }
@@ -234,6 +234,10 @@ img.responsive {
 
 .sample8 {
 	background-color: #ded2e5;
+}
+
+.sample9 {
+		background-color: #dff3f9;
 }
 
 /* end of home */
@@ -280,7 +284,7 @@ img.responsive {
 	background-color: #dfe4c6;
 }
 .projectBG7 {
-	background-color: #aacaa0;
+	background-color: #dff3f9;
 }
 .projectBG8 {
 	background-color: #ded2e5;
